@@ -302,9 +302,9 @@ UNSUPPORTED: gcc.dg/20050826-1.c
 PASS: gcc.dg/20050922-1.c (test for excess errors)
 PASS: gcc.dg/20050922-1.c execution test
 PASS: gcc.dg/20050922-2.c (test for excess errors)
-PASS: gcc.dg/20050922-2.c execution test
+FAIL: gcc.dg/20050922-2.c execution test
 PASS: gcc.dg/20051201-1.c (test for excess errors)
-FAILED: gcc.dg/20051207-1.c (test for excess errors)
+FAIL: gcc.dg/20051207-1.c (test for excess errors)
 PASS: gcc.dg/20051207-2.c (test for excess errors)
 PASS: gcc.dg/20051207-3.c  (test for errors, line 7)
 PASS: gcc.dg/20051207-3.c (test for excess errors)
