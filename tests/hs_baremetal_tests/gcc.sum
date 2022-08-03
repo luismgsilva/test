@@ -1,4 +1,4 @@
-Test run by luiss on Tue Aug  2 12:26:53 2022
+Test run by luiss on Wed Aug  3 14:41:27 2022
 Target is arc-unknown-elf32
 Host   is x86_64-pc-linux-gnu
 
@@ -302,12 +302,12 @@ UNSUPPORTED: gcc.dg/20050826-1.c
 PASS: gcc.dg/20050922-1.c (test for excess errors)
 PASS: gcc.dg/20050922-1.c execution test
 PASS: gcc.dg/20050922-2.c (test for excess errors)
-FAIL: gcc.dg/20050922-2.c execution test
-FAIL: gcc.dg/20051201-1.c (test for excess errors)
-FAIL: gcc.dg/20051207-1.c (test for excess errors)
+PASS: gcc.dg/20050922-2.c execution test
+PASS: gcc.dg/20051201-1.c (test for excess errors)
+PASS: gcc.dg/20051207-1.c (test for excess errors)
 PASS: gcc.dg/20051207-2.c (test for excess errors)
 PASS: gcc.dg/20051207-3.c  (test for errors, line 7)
-FAIL: gcc.dg/20051207-3.c (test for excess errors)
+PASS: gcc.dg/20051207-3.c (test for excess errors)
 PASS: gcc.dg/20060410.c (test for excess errors)
 PASS: gcc.dg/20060410.c scan-assembler foo
 PASS: gcc.dg/20060419-1.c  (test for warnings, line 2)
@@ -33426,5 +33426,5 @@ PASS: c-c++-common/zero-scratch-regs-attr-usages.c  -Wc++-compat  (test for exce
 # of unexpected successes	1
 # of expected failures		549
 # of unsupported tests		550
-/scratch/luiss/daily_execution/daily/install/20220802/toolchain_baremetal_arc/bin/arc-elf32-gcc  version 12.1.1 20220615 (GCC) 
+/scratch/luiss/daily_execution/daily/install/20220803/toolchain_baremetal_arc/bin/arc-elf32-gcc  version 12.1.1 20220615 (GCC) 
 
