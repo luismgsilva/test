@@ -307,7 +307,7 @@ PASS: gcc.dg/20051201-1.c (test for excess errors)
 PASS: gcc.dg/20051207-1.c (test for excess errors)
 PASS: gcc.dg/20051207-2.c (test for excess errors)
 PASS: gcc.dg/20051207-3.c  (test for errors, line 7)
-PASS: gcc.dg/20051207-3.c (test for excess errors)
+FAIL: gcc.dg/20051207-3.c (test for excess errors)
 PASS: gcc.dg/20060410.c (test for excess errors)
 PASS: gcc.dg/20060410.c scan-assembler foo
 PASS: gcc.dg/20060419-1.c  (test for warnings, line 2)

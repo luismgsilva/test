@@ -108,7 +108,7 @@ PASS: gcc.dg/20020503-1.c (test for excess errors)
 PASS: gcc.dg/20020517-1.c (test for excess errors)
 FAIL: gcc.dg/20020517-1.c execution test
 PASS: gcc.dg/20020525-1.c (test for excess errors)
-FAIL: gcc.dg/20020525-1.c execution test
+PASS: gcc.dg/20020525-1.c execution test
 PASS: gcc.dg/20020527-1.c (test for excess errors)
 PASS: gcc.dg/20020530-1.c (test for excess errors)
 PASS: gcc.dg/20020607-1.c (test for excess errors)
