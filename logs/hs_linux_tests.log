@@ -1,0 +1,27 @@
+Executing instruction: mkdir -p /scratch/luiss/tests/tools/build/hs_linux_tests/tmp
+Executing instruction: QEMU_HOME=/scratch/luiss/daily_execution/daily/install/20220731/qemu ARC_MULTILIB_OPTIONS=cpu=archs TARGET_TELNET_PORT=7006 TARGET_FTP_PORT=7005 runtest dg.exp
+Using /scratch/luiss/daily_execution/daily/tools/arc-gnu-toolchain/gcc/gcc/testsuite/lib/gcc.exp as tool init file.
+Test run by luiss on Mon Aug  1 11:37:08 2022
+Target is arc-linux-gnu
+Host   is x86_64-pc-linux-gnu
+
+		=== gcc tests ===
+
+Schedule of variations:
+    arc-linux-qemu
+
+Running target arc-linux-qemu
+Using /scratch/luiss/tests/toolchain//dejagnu/baseboards/arc-linux-qemu.exp as board description file for target.
+ARC Linux test setup
+Using /usr/share/dejagnu/config/unix.exp as generic interface file for target.
+Using /scratch/luiss/daily_execution/daily/tools/arc-gnu-toolchain/gcc/gcc/testsuite/config/default.exp as tool-and-target-specific interface file.
+Running /scratch/luiss/daily_execution/daily/tools/arc-gnu-toolchain/gcc/gcc/testsuite/gcc.dg/dg.exp ...
+WARNING: telnet: connection refused.
+WARNING: telnet: got unexpected EOF from telnet.
+got a INT signal, interrupted by user 
+
+		=== gcc Summary ===
+
+# of expected passes		1
+/scratch/luiss/daily_execution/daily/install/20220801/toolchain_linux_arc/bin/arc-linux-gnu-gcc  version 12.1.1 20220615 (ARCv3 ARC64 GNU/Linux a5bcf90bb) 
+

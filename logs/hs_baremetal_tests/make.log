@@ -1,0 +1,99 @@
+Executing instruction: mkdir -p /scratch/luiss/tests/tools/build/hs_baremetal_tests/tmp
+Executing instruction: QEMU_HOME=/scratch/luiss/daily_execution/daily/install/20220731/qemu runtest dg.exp
+Using /scratch/luiss/daily_execution/daily/tools/arc-gnu-toolchain/gcc/gcc/testsuite/lib/gcc.exp as tool init file.
+Test run by luiss on Sun Jul 31 21:41:19 2022
+Target is arc-unknown-elf32
+Host   is x86_64-pc-linux-gnu
+
+		=== gcc tests ===
+
+Schedule of variations:
+    arc-sim-qemu
+
+Running target arc-sim-qemu
+Using /scratch/luiss/tests/toolchain//dejagnu/baseboards/arc-sim-qemu.exp as board description file for target.
+Using /usr/share/dejagnu/config/sim.exp as generic interface file for target.
+Using /usr/share/dejagnu/baseboards/basic-sim.exp as board description file for target.
+Using /scratch/luiss/daily_execution/daily/tools/arc-gnu-toolchain/gcc/gcc/testsuite/config/default.exp as tool-and-target-specific interface file.
+Running /scratch/luiss/daily_execution/daily/tools/arc-gnu-toolchain/gcc/gcc/testsuite/gcc.dg/dg.exp ...
+FAIL: gcc.dg/20001012-1.c execution test
+FAIL: gcc.dg/20001012-2.c execution test
+FAIL: gcc.dg/20040219-1.c execution test
+FAIL: gcc.dg/20040625-1.c execution test
+FAIL: gcc.dg/builtin-apply4.c execution test
+FAIL: gcc.dg/builtin-tgmath-1.c execution test
+FAIL: gcc.dg/builtin-tgmath-2.c execution test
+FAIL: gcc.dg/builtin-tgmath-3.c execution test
+FAIL: gcc.dg/c11-complex-1.c execution test
+FAIL: gcc.dg/c11-true_min-1.c execution test
+FAIL: gcc.dg/c2x-float-3.c execution test
+FAIL: gcc.dg/c2x-float-4.c execution test
+FAIL: gcc.dg/c2x-float-6.c execution test
+FAIL: gcc.dg/c99-init-1.c execution test
+FAIL: gcc.dg/cdce1.c execution test
+FAIL: gcc.dg/cdce2.c execution test
+FAIL: gcc.dg/complex-1.c execution test
+FAIL: gcc.dg/div-double-1.c execution test
+FAIL: gcc.dg/fixuns-trunc-1.c execution test
+FAIL: gcc.dg/float-exact-1.c execution test
+FAIL: gcc.dg/loop-unswitch-4.c execution test
+FAIL: gcc.dg/misaligned-expand-3.c execution test
+FAIL: gcc.dg/pow-sqrt-1.c execution test
+FAIL: gcc.dg/pow-sqrt-2.c execution test
+FAIL: gcc.dg/pow-sqrt-3.c execution test
+FAIL: gcc.dg/pr102224.c execution test
+FAIL: gcc.dg/pr102892-1.c (test for excess errors)
+FAIL: gcc.dg/pr104389.c execution test
+FAIL: gcc.dg/pr19402-2.c execution test
+FAIL: gcc.dg/pr28726.c execution test
+FAIL: gcc.dg/pr28796-2.c execution test
+FAIL: gcc.dg/pr30957-1.c execution test
+FAIL: gcc.dg/pr31507-1.c execution test
+FAIL: gcc.dg/pr33136-1.c execution test
+FAIL: gcc.dg/pr35045.c execution test
+FAIL: gcc.dg/pr36017.c execution test
+FAIL: gcc.dg/pr36584.c execution test
+FAIL: gcc.dg/pr40550.c execution test
+FAIL: gcc.dg/pr41963.c execution test
+FAIL: gcc.dg/pr43419.c execution test
+FAIL: gcc.dg/pr44606.c execution test
+FAIL: gcc.dg/pr46728-12.c execution test
+FAIL: gcc.dg/pr46728-9.c execution test
+FAIL: gcc.dg/pr50310-1.c execution test
+FAIL: gcc.dg/pr50310-2.c execution test
+FAIL: gcc.dg/pr54919.c execution test
+FAIL: gcc.dg/pr55019.c execution test
+FAIL: gcc.dg/pr63594-2.c execution test
+FAIL: gcc.dg/pr82004.c execution test
+FAIL: gcc.dg/pr82703.c execution test
+FAIL: gcc.dg/pr86835.c execution test
+FAIL: gcc.dg/pr88598-2.c execution test
+FAIL: gcc.dg/pr88598-5.c execution test
+FAIL: gcc.dg/pr89984.c execution test
+FAIL: gcc.dg/pr90248.c execution test
+FAIL: gcc.dg/pr91069.c execution test
+FAIL: gcc.dg/pr91734.c execution test
+FAIL: gcc.dg/pr92301.c execution test
+FAIL: gcc.dg/pr93995.c execution test
+FAIL: gcc.dg/pr94589-4.c execution test
+FAIL: gcc.dg/single-precision-constant.c execution test
+FAIL: gcc.dg/sms-11.c execution test
+FAIL: gcc.dg/sms-3.c execution test
+FAIL: gcc.dg/sms-7.c execution test
+FAIL: gcc.dg/trampoline-1.c execution test
+XPASS: gcc.dg/uninit-pred-7_a.c bogus warning (test for bogus messages, line 26)
+FAIL: gcc.dg/uninit-pred-9_b.c bogus warning (test for bogus messages, line 20)
+FAIL: gcc.dg/unroll-and-jam.c execution test
+FAIL: gcc.dg/var-expand2.c execution test
+FAIL: c-c++-common/builtin-assoc-barrier-1.c  -Wc++-compat  execution test
+FAIL: c-c++-common/pr55771.c  -Wc++-compat  execution test
+
+		=== gcc Summary ===
+
+# of expected passes		32239
+# of unexpected failures	70
+# of unexpected successes	1
+# of expected failures		549
+# of unsupported tests		550
+/scratch/luiss/daily_execution/daily/install/20220731/toolchain_baremetal_arc/bin/arc-elf32-gcc  version 12.1.1 20220615 (GCC) 
+

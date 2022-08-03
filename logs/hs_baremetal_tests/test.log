@@ -1,0 +1,4 @@
+Executing instruction: which arc-elf32-gcc
+/scratch/luiss/daily_execution/daily/install/20220731/toolchain_baremetal_arc/bin/arc-elf32-gcc
+Executing instruction: which /scratch/luiss/daily_execution/daily/install/20220731/qemu/bin/qemu-system-arc
+/scratch/luiss/daily_execution/daily/install/20220731/qemu/bin/qemu-system-arc
