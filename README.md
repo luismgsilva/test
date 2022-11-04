@@ -176,7 +176,7 @@ The *Report* parameter is responsible for executing a bash command for the task'
 ## Framework Initialization
 
 
-BSF is initialized with a folder containing a mandatory `config.json` file that defines all of it's configuration and execution. Other dependencies, such as a script that is invoked from the `config.json` file, must also be present in the folder.
+BSF is initialized with a folder containing a mandatory `config.json` file, previously introduced, that defines all of it's configuration and execution. Other dependencies, such as a script that is invoked from the `config.json` file, must also be present in the folder.
 
 <!-- The framework initialization depends on the folder containing a mandatory `config.json` with all the tasks' configuration and execution. 
 The folder can also contaion other type of dependencies, for instance, a script that is called within the `config.json` file. -->
