@@ -157,7 +157,7 @@ The *Pre-Condition* parameter performs N different validations when executing `$
 
 ### Execute Parameter
 <!-- The *Execute* parameter is responsable for the main purpose of the task. Here is where is defined all operations, for instance, the procedures for the hs dejagnu baremetal testing. It accepts a single string or array of strings as input and bash as language. This means that the actual task's execution is not Ruby dependent and can invoke independent scripts if needed. -->
-The true objective of the tasks is handled by the *Execute* parameter. All procedures, such as the steps for the hs dejagnu baremetal testing, are defined here and executed within an unique workspace folder. It takes bash as the language and a single string or array of strings as input. This implies that the execution of the job itself is independent of Ruby and may, if necessary, call independent scripts.
+The true objective of the tasks is handled by the *Execute* parameter. All procedures, such as the steps for the hs dejagnu baremetal testing, are defined here and executed within an unique workspace folder. It takes bash as the language and a single string or array of strings as input. This implies that the execution of the task itself is independent of Ruby and may, if necessary, call independent scripts.
 
 ### Publish Header Parameter
 <!-- This parameter is responsble for defining the commit message to be stored in the git commit through the `bsf publish` command. It is mandatory to be a JSON format as input and capable of accepting multiple JSON format as the BSF will contactenate all JSON into one single JSON. -->
