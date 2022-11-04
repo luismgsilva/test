@@ -149,7 +149,7 @@ A task is a defined execution of a certain operation. Each task comprises parame
 ```
 
 ### Description Parameter
-The *description* parameter is essentially a mechanism to describe the current task's purpose in more depth. When executing `$ bsf tasks` command to display a list of all tasks in the system, this argument, which accepts a string as an input, will be displayed.
+The *description* parameter is essentially a mechanism to describe the current task's purpose in more depth. When executing `$ bsf tasks` command to display a list of all tasks in the system, this parameter's value, which accepts a string as an input, will be displayed.
 
 ### Pre-Conditions Parameter
 <!-- The Pre-Condition parameter is a parameter that execute a N number of validations for the current task, if the dependencies to the current task is verified, the execution will precced. Otherside it will print the fail. -->
